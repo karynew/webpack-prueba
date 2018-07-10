@@ -1,11 +1,10 @@
 {
   "name": "webpack-tutorial",
   "version": "1.0.0",
-  "description": "",
+  "description": "primeras pruebas",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --port 3001 --inline --content-base ."
-    
   },
   "keywords": [],
   "author": "",
