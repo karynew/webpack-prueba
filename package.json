@@ -3,17 +3,19 @@
   "version": "1.0.0",
   "description": "primeras pruebas",
   "repository": {
-  "type": "git",
-  "url": "git://github.com/karynew/webpack-prueba.git"
-}
+    "type": "git",
+    "url": "git://github.com/karynew/webpack-prueba.git"
+  },
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --port 3001 --inline --content-base ."
+    "start": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.15.1"
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-command": "^0.4.1"
   }
 }
